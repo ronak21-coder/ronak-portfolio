@@ -182,3 +182,26 @@
   .social_media a:hover i{
     transform: translateY(-3px); /* Hover effect on icon too */
   }
+
+   social_media p {
+    font-size: larger;
+    text-transform: capitalize;
+  }
+
+  @media screen and (max-width:455px) {
+    .social_media{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .social_media{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      padding: 10px;
+    }
+
+  }
